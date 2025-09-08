@@ -3,31 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
     <title>Html Intro</title>
-
-    <style>
-        .container{
-            background-color: rgb(124, 7, 7);
-            color: wheat;
-            border: 6px solid rgb(55, 31, 52);
-            border: 8px dashed rgb(0, 0, 0);
-            padding: 10px;
-            font-size: 43px;
-        }
-        #footer{
-            background-color: rgb(7, 124, 43);
-            color: wheat;
-            border: 6px solid rgb(55, 31, 52);
-            border: 8px dashed rgb(0, 0, 0);
-            padding: 10px;
-            font-size: 43px;
-        }
-    </style>
-    
   </head>
   <body>
     <!-- basliq(heading) teqler h1-h6 -->
-    <h1>Hello World</h1>  <h2>Hello World</h2>   <h3>Hello World</h3>
+    <!-- <h1>Hello World</h1>  <h2>Hello World</h2>   <h3>Hello World</h3>
     
     <h3>Hello World</h3>
     <h4>Hello World</h4>
@@ -44,7 +25,7 @@
     </p>
     <p>Bu gun 3cu gundur</p>
     <span>bu gun 5dir</span>
-    <span>Lorem, ipsum dolor.</span>
+    <span>Lorem, ipsum dolor.</span> -->
 
     <h2>lorem5 <span>emrah</span> </h2>
     <span>Lorem ipsum dolor sit. <h2>emrah</h2></span>
@@ -57,9 +38,11 @@
          p- paraqraf teqidir, melumat yazilir, block elementidi
          span - paraqraf yazilir bura da lakin inline elementdir -->
     <!-- class - classa qoyulmus addan bir nece yerde islene ve istifade oluna biler . isaresi ile secilir
-         id - unique bir addir, istifade edilen elementden(teqden) basqa tqe id olaraq verile bilmez, # isaresi ile secilir -->
+         id - unique bir deyerdir, istifade edilen elementden(teqden) basqa tqe id olaraq verile bilmez, # isaresi ile secilir -->
 
-    <div  class="container">
+
+         <!-- division -->
+    <!-- <div  class="container"> 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum facere blanditiis obcaecati.</p>
     </div>
 
@@ -69,18 +52,28 @@
 
     <div id="footer">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum facere blanditiis obcaecati.</p>
-    </div>
+    </div> -->
 
 
     <form>
        <div>
          <label for="">Ad</label>
-         <input type="text" placeholder="ad daxil edin"/>
+         <input type="text" placeholder="ad daxil edin" required/>
        </div>
          <br/>
          <div>
             <label for="">Soyad</label>
             <input type="text" placeholder="soyad daxil edin"/>
+         </div>
+         <br/>
+         <div>
+          <label for="">Email</label>
+          <input type="email" placeholder="email daxil edin" required/>
+         </div>
+         <br/>
+          <div>
+          <label for="">Password</label>
+          <input type="password" placeholder="password daxil edin"/>
          </div>
     </br>
         <button type="submit">gonder</button>
